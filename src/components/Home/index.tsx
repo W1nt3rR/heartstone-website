@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { searchCards } from "../../api/HeartstoneApis";
+import Layout from "../Layout";
 
 
 const Home = () => {
@@ -17,11 +18,11 @@ const Home = () => {
     }, [])
     
 
-    return <div>
+    return <Layout>
         {cards && cards.cards.map((item: any) => {
             return <img src={item.image} alt="" />
         })}
-    </div>
+    </Layout>
 }
 
 export default Home;
