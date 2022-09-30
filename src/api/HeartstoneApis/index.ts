@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const commonParams = {
-    access_token: "EUggGGRAgDcGP1HWjVIsE6pKLMdTrDRh3H"
+    access_token: "EUHSeM0VcpCIN1TPGgmcErAjiEHpATODL3"
 }
 
 export const searchCards = axios.create({
